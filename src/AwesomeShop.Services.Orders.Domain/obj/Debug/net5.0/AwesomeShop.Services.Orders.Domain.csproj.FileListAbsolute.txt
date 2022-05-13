@@ -1,0 +1,12 @@
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Domain\bin\Debug\net5.0\AwesomeShop.Services.Orders.Domain.deps.json
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Domain\bin\Debug\net5.0\AwesomeShop.Services.Orders.Domain.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Domain\bin\Debug\net5.0\ref\AwesomeShop.Services.Orders.Domain.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Domain\bin\Debug\net5.0\AwesomeShop.Services.Orders.Domain.pdb
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Domain\obj\Debug\net5.0\AwesomeShop.Services.Orders.Domain.csproj.AssemblyReference.cache
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Domain\obj\Debug\net5.0\AwesomeShop.Services.Orders.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Domain\obj\Debug\net5.0\AwesomeShop.Services.Orders.Domain.AssemblyInfoInputs.cache
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Domain\obj\Debug\net5.0\AwesomeShop.Services.Orders.Domain.AssemblyInfo.cs
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Domain\obj\Debug\net5.0\AwesomeShop.Services.Orders.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Domain\obj\Debug\net5.0\AwesomeShop.Services.Orders.Domain.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Domain\obj\Debug\net5.0\ref\AwesomeShop.Services.Orders.Domain.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Domain\obj\Debug\net5.0\AwesomeShop.Services.Orders.Domain.pdb

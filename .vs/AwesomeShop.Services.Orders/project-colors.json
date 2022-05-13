@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ca7abeff-821d-4f51-81c3-ae2bee4f21b3": {
+      "ProjectGuid": "ca7abeff-821d-4f51-81c3-ae2bee4f21b3",
+      "DisplayName": "ClassLibrary1",
+      "ColorIndex": 0
+    },
+    "8dcd5413-fe12-4a5b-9bea-b52bad6f080a": {
+      "ProjectGuid": "8dcd5413-fe12-4a5b-9bea-b52bad6f080a",
+      "DisplayName": "AwesomeShop.Services.Orders.Api",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
