@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplication", "Aplication", "{2170D9F2-00E0-4973-B1EB-2BBCE82200F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Services.Orders.Domain", "AwesomeShop.Services.Orders.Domain\AwesomeShop.Services.Orders.Domain.csproj", "{889D52C4-15BE-4E7E-90EB-A6ADEFC007D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeShop.Services.Orders.Domain", "AwesomeShop.Services.Orders.Domain\AwesomeShop.Services.Orders.Domain.csproj", "{889D52C4-15BE-4E7E-90EB-A6ADEFC007D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

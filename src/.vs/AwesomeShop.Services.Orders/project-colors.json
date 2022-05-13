@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "889d52c4-15be-4e7e-90eb-a6adefc007d3": {
+      "ProjectGuid": "889d52c4-15be-4e7e-90eb-a6adefc007d3",
+      "DisplayName": "AwesomeShop.Services.Orders.Domain",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "8dcd5413-fe12-4a5b-9bea-b52bad6f080a": {
+      "ProjectGuid": "8dcd5413-fe12-4a5b-9bea-b52bad6f080a",
+      "DisplayName": "AwesomeShop.Services.Orders.Api",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
