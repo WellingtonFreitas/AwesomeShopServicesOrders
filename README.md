@@ -15,6 +15,7 @@ AwesomeShop é um e-commerce em arquitetura de Microsserviços em .NET e contém
 ## [](https://github.com/viiparente/AwesomeShop.Services.Orders#tecnologias-pr%C3%A1ticas-e-arquitetura-utilizadas)Tecnologias, práticas e arquitetura utilizadas
 
 -   ASP.NET Core com .NET 5
+-   Docker
 -   Arquitetura de Microsserviços
 -   Princípios do Domain-Driven Design
 -   MongoDB
