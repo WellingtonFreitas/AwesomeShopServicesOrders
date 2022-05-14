@@ -34,6 +34,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.DependencyInjection\\AwesomeShop.Services.Orders.DependencyInjection.csproj": {
+                "projectPath": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.DependencyInjection\\AwesomeShop.Services.Orders.DependencyInjection.csproj"
+              },
               "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Domain\\AwesomeShop.Services.Orders.Domain.csproj": {
                 "projectPath": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Domain\\AwesomeShop.Services.Orders.Domain.csproj"
               }
@@ -53,6 +56,10 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -79,6 +86,149 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Data\\AwesomeShop.Services.Orders.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Data\\AwesomeShop.Services.Orders.Data.csproj",
+        "projectName": "AwesomeShop.Services.Orders.Data",
+        "projectPath": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Data\\AwesomeShop.Services.Orders.Data.csproj",
+        "packagesPath": "C:\\Users\\w.martins.de.freitas\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\w.martins.de.freitas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azuldevops.pkgs.visualstudio.com/_packaging/azulframework/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Domain\\AwesomeShop.Services.Orders.Domain.csproj": {
+                "projectPath": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Domain\\AwesomeShop.Services.Orders.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.DependencyInjection\\AwesomeShop.Services.Orders.DependencyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.DependencyInjection\\AwesomeShop.Services.Orders.DependencyInjection.csproj",
+        "projectName": "AwesomeShop.Services.Orders.DependencyInjection",
+        "projectPath": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.DependencyInjection\\AwesomeShop.Services.Orders.DependencyInjection.csproj",
+        "packagesPath": "C:\\Users\\w.martins.de.freitas\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.DependencyInjection\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\w.martins.de.freitas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azuldevops.pkgs.visualstudio.com/_packaging/azulframework/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Data\\AwesomeShop.Services.Orders.Data.csproj": {
+                "projectPath": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Data\\AwesomeShop.Services.Orders.Data.csproj"
+              },
+              "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Domain\\AwesomeShop.Services.Orders.Domain.csproj": {
+                "projectPath": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Domain\\AwesomeShop.Services.Orders.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -136,6 +286,10 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.1, )"
             }
           },
           "imports": [

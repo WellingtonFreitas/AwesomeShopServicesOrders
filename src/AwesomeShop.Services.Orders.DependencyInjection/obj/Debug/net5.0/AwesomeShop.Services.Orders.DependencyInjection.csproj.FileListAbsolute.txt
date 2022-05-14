@@ -1,0 +1,17 @@
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\bin\Debug\net5.0\AwesomeShop.Services.Orders.DependencyInjection.deps.json
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\bin\Debug\net5.0\AwesomeShop.Services.Orders.DependencyInjection.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\bin\Debug\net5.0\ref\AwesomeShop.Services.Orders.DependencyInjection.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\bin\Debug\net5.0\AwesomeShop.Services.Orders.DependencyInjection.pdb
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\bin\Debug\net5.0\AwesomeShop.Services.Orders.Data.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\bin\Debug\net5.0\AwesomeShop.Services.Orders.Domain.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\bin\Debug\net5.0\AwesomeShop.Services.Orders.Data.pdb
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\bin\Debug\net5.0\AwesomeShop.Services.Orders.Domain.pdb
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\obj\Debug\net5.0\AwesomeShop.Services.Orders.DependencyInjection.csproj.AssemblyReference.cache
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\obj\Debug\net5.0\AwesomeShop.Services.Orders.DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\obj\Debug\net5.0\AwesomeShop.Services.Orders.DependencyInjection.AssemblyInfoInputs.cache
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\obj\Debug\net5.0\AwesomeShop.Services.Orders.DependencyInjection.AssemblyInfo.cs
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\obj\Debug\net5.0\AwesomeShop.Services.Orders.DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\obj\Debug\net5.0\AwesomeShop.Services.Orders.DependencyInjection.csproj.CopyComplete
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\obj\Debug\net5.0\AwesomeShop.Services.Orders.DependencyInjection.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\obj\Debug\net5.0\ref\AwesomeShop.Services.Orders.DependencyInjection.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.DependencyInjection\obj\Debug\net5.0\AwesomeShop.Services.Orders.DependencyInjection.pdb

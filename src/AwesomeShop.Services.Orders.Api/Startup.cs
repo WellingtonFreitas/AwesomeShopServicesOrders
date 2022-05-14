@@ -1,6 +1,4 @@
-using AwesomeShop.Services.Orders.Domain.Commands.Add;
-using AwesomeShop.Services.Orders.Domain.Queries.Orders.GetById;
-using MediatR;
+using AwesomeShop.Services.Orders.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -22,8 +20,9 @@ namespace AwesomeShop.Services.Orders.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMediatR(typeof(AddOrderRequest));
             services.AddControllers();
+            services.AddServicesDependenciesInjection();
+            services.AddRepositoriesDependenciesInjection();
 
             services.AddCors(options =>
             {

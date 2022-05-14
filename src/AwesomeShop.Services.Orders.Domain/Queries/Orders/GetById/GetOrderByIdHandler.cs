@@ -11,9 +11,9 @@ namespace AwesomeShop.Services.Orders.Domain.Queries.Orders.GetById
 {
     public class GetOrderByIdHandler : IRequestHandler<GetOrderByIdRequest, ResponseBase>
     {
-        private readonly IOrderRepository<Guid> _repository;
+        private readonly IOrderRepository _repository;
         public GetOrderByIdHandler(
-            IOrderRepository<Guid> repository)
+            IOrderRepository repository)
         {
             _repository = repository;
         }

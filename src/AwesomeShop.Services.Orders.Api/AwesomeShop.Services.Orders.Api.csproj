@@ -2,14 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>75140a04-ab40-401a-859c-b3a08658dcab</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AwesomeShop.Services.Orders.DependencyInjection\AwesomeShop.Services.Orders.DependencyInjection.csproj" />
     <ProjectReference Include="..\AwesomeShop.Services.Orders.Domain\AwesomeShop.Services.Orders.Domain.csproj" />
   </ItemGroup>
 

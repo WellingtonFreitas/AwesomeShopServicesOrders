@@ -15,7 +15,12 @@
       "ProjectGuid": "8dcd5413-fe12-4a5b-9bea-b52bad6f080a",
       "DisplayName": "AwesomeShop.Services.Orders.Api",
       "ColorIndex": 1
+    },
+    "a18613b3-bd24-46d9-a3e2-18695fedc448": {
+      "ProjectGuid": "a18613b3-bd24-46d9-a3e2-18695fedc448",
+      "DisplayName": "AwesomeShop.Services.Orders.Data",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

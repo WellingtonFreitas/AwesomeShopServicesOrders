@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 
 namespace AwesomeShop.Services.Orders.Domain.Interfaces.Repositories
 {
-    public interface IOrderRepository<TIdentifier>
+    public interface IOrderRepository
     {
-        Task<Order> GetByIdAsync(TIdentifier id);
+        Task<Order> GetByIdAsync(Guid id);
         Task AddAsync(Order order);
         Task UpdateAsync(Order order);
     }
