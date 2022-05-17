@@ -23,6 +23,7 @@ namespace AwesomeShop.Services.Orders.Api
             services.AddControllers();
             services.AddServicesDependenciesInjection();
             services.AddRepositoriesDependenciesInjection();
+            services.AddMessageBus();
 
             services.AddCors(options =>
             {

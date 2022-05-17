@@ -1,0 +1,17 @@
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\bin\Debug\net5.0\AwesomeShop.Services.Orders.Services.deps.json
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\bin\Debug\net5.0\AwesomeShop.Services.Orders.Services.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\bin\Debug\net5.0\ref\AwesomeShop.Services.Orders.Services.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\bin\Debug\net5.0\AwesomeShop.Services.Orders.Services.pdb
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\bin\Debug\net5.0\AwesomeShop.Services.Orders.Domain.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\bin\Debug\net5.0\AwesomeShop.Services.Orders.Domain.pdb
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\obj\Debug\net5.0\AwesomeShop.Services.Orders.Services.csproj.AssemblyReference.cache
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\obj\Debug\net5.0\AwesomeShop.Services.Orders.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\obj\Debug\net5.0\AwesomeShop.Services.Orders.Services.AssemblyInfoInputs.cache
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\obj\Debug\net5.0\AwesomeShop.Services.Orders.Services.AssemblyInfo.cs
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\obj\Debug\net5.0\AwesomeShop.Services.Orders.Services.csproj.CoreCompileInputs.cache
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\obj\Debug\net5.0\AwesomeShop.Services.Orders.Services.csproj.CopyComplete
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\obj\Debug\net5.0\AwesomeShop.Services.Orders.Services.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\obj\Debug\net5.0\ref\AwesomeShop.Services.Orders.Services.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\obj\Debug\net5.0\AwesomeShop.Services.Orders.Services.pdb
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\bin\Debug\net5.0\AwesomeShop.Services.Orders.Extensions.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\bin\Debug\net5.0\AwesomeShop.Services.Orders.Extensions.pdb

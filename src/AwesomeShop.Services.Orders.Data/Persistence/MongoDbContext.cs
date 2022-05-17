@@ -10,7 +10,7 @@ namespace AwesomeShop.Services.Orders.Data.Persistence
         public MongoDbContext()
         {
             MongoClientSettings mongoClientSettings = MongoClientSettings
-                .FromUrl(new MongoUrl("mongodb://root:password@127.0.0.1:27017/admin?authSource=admin"));
+                .FromUrl(new MongoUrl("mongodb://admin:password@localhost:27017/admin"));
 
             mongoClientSettings.SslSettings =
                 new SslSettings()

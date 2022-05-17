@@ -2,9 +2,11 @@
 using AwesomeShop.Services.Orders.Data.Persistence.Repositories;
 using AwesomeShop.Services.Orders.Domain.Commands.Add;
 using AwesomeShop.Services.Orders.Domain.Interfaces.Repositories;
+using AwesomeShop.Services.Orders.Domain.Interfaces.Services;
+using AwesomeShop.Services.Orders.Services.MessageBus;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using System;
+using RabbitMQ.Client;
 
 namespace AwesomeShop.Services.Orders.DependencyInjection
 {
@@ -20,6 +22,11 @@ namespace AwesomeShop.Services.Orders.DependencyInjection
             services.AddSingleton<IMongoDBContext, MongoDbContext>();
 
             services.AddScoped<IOrderRepository, OrderRepository>();
+        }
+
+        public static void AddMessageBus(this IServiceCollection services)
+        {
+            services.AddSingleton<IMessageBusClient, RabbitMqClient>();
         }
     }
 }

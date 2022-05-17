@@ -1,0 +1,12 @@
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Extensions\bin\Debug\net5.0\AwesomeShop.Services.Orders.Extensions.deps.json
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Extensions\bin\Debug\net5.0\AwesomeShop.Services.Orders.Extensions.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Extensions\bin\Debug\net5.0\ref\AwesomeShop.Services.Orders.Extensions.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Extensions\bin\Debug\net5.0\AwesomeShop.Services.Orders.Extensions.pdb
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Extensions\obj\Debug\net5.0\AwesomeShop.Services.Orders.Extensions.csproj.AssemblyReference.cache
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Extensions\obj\Debug\net5.0\AwesomeShop.Services.Orders.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Extensions\obj\Debug\net5.0\AwesomeShop.Services.Orders.Extensions.AssemblyInfoInputs.cache
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Extensions\obj\Debug\net5.0\AwesomeShop.Services.Orders.Extensions.AssemblyInfo.cs
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Extensions\obj\Debug\net5.0\AwesomeShop.Services.Orders.Extensions.csproj.CoreCompileInputs.cache
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Extensions\obj\Debug\net5.0\AwesomeShop.Services.Orders.Extensions.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Extensions\obj\Debug\net5.0\ref\AwesomeShop.Services.Orders.Extensions.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Extensions\obj\Debug\net5.0\AwesomeShop.Services.Orders.Extensions.pdb

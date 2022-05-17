@@ -20,7 +20,22 @@
       "ProjectGuid": "a18613b3-bd24-46d9-a3e2-18695fedc448",
       "DisplayName": "AwesomeShop.Services.Orders.Data",
       "ColorIndex": 2
+    },
+    "a23fcc82-a117-4012-b989-2b0b83ff3a93": {
+      "ProjectGuid": "a23fcc82-a117-4012-b989-2b0b83ff3a93",
+      "DisplayName": "AwesomeShop.Services.Orders.DependencyInjection",
+      "ColorIndex": 3
+    },
+    "8b104c99-1f69-47d0-8b87-f9681e3780a4": {
+      "ProjectGuid": "8b104c99-1f69-47d0-8b87-f9681e3780a4",
+      "DisplayName": "AwesomeShop.Services.Orders.Services",
+      "ColorIndex": 4
+    },
+    "be7374f7-3046-4472-bed8-065df5830280": {
+      "ProjectGuid": "be7374f7-3046-4472-bed8-065df5830280",
+      "DisplayName": "AwesomeShop.Services.Orders.Extensions",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 6
 }
