@@ -1,4 +1,5 @@
 ﻿using AwesomeShop.Services.Orders.Domain.Interfaces.Services;
+using AwesomeShop.Services.Orders.Services.Subscribers;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using RabbitMQ.Client;
