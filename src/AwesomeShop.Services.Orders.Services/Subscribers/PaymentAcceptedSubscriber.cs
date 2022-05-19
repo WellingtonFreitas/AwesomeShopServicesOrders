@@ -33,7 +33,7 @@ namespace AwesomeShop.Services.Orders.Services.Subscribers
 
             _channel = _connection.CreateModel();
             _channel.ExchangeDeclare(exchange: Exchange, type: "topic", durable: true);
-            _channel.QueueDeclare(queue: Queue, durable: false, exclusive: false, autoDelete: false, arguments: null);
+            _channel.QueueDeclare(queue: Queue, durable: true, exclusive: false, autoDelete: false, arguments: null);
             _channel.QueueBind(queue: Queue, exchange: "payment-service", routingKey: RoutingKey);
 
 

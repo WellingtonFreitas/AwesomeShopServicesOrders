@@ -793,7 +793,8 @@
           "AwesomeShop.Services.Orders.Extensions": "1.0.0",
           "MediatR": "10.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
-          "MongoDB.Driver": "2.15.1"
+          "MongoDB.Driver": "2.15.1",
+          "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
           "bin/placeholder/AwesomeShop.Services.Orders.Domain.dll": {}
