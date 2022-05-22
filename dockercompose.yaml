@@ -1,21 +1,14 @@
- # docker-compose -f ./Docker-Compose.yaml
+# docker-compose -f ./Docker-Compose.yaml
 version: '3.9'
 
 services:
-  rabbitmq:
-    image: rabbitmq:3-management-alpine
-    container_name: 'rabbitmq'
-    ports:
-      - 5672:5672
-      - 15672:15672
-  
   mongo:
     image: mongo:5.0.1-focal
     restart: always
-    container_name: awesome-shop
+    container_name: mongo-avanade
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_ROOT_PASSWORD: avanade-password
       MONGO_INITDB_DATABASE: fullstack
     ports:
       - "27017:27017"
@@ -27,15 +20,15 @@ services:
   mongo-express:
     image: mongo-express:0.54.0
     restart: always
-    container_name: mongoexp
+    container_name: mongoexp-avanade
     ports:
       - 9031:8081
     environment:
-      ME_CONFIG_BASICAUTH_USERNAME: user
-      ME_CONFIG_BASICAUTH_PASSWORD: password
+      ME_CONFIG_BASICAUTH_USERNAME: avanade-user
+      ME_CONFIG_BASICAUTH_PASSWORD: avanade-password
       ME_CONFIG_MONGODB_PORT: 27017
       ME_CONFIG_MONGODB_ADMINUSERNAME: root
-      ME_CONFIG_MONGODB_ADMINPASSWORD: password
+      ME_CONFIG_MONGODB_ADMINPASSWORD: avanade-password
     links:
       - mongo
     networks: 

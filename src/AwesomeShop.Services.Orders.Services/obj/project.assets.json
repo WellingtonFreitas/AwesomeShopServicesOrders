@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Consul/1.6.10.5": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Consul.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {}
+        }
+      },
       "DnsClient/1.6.0": {
         "type": "package",
         "dependencies": {
@@ -816,6 +828,19 @@
     }
   },
   "libraries": {
+    "Consul/1.6.10.5": {
+      "sha512": "bHZeWce/klIPjqLNYqZHYIIjMnClLQE+/KJPzZlVo2J+APr4uuJghP6rax/WMB6SuI/oofbc2T046Q9+Zy/i5g==",
+      "type": "package",
+      "path": "consul/1.6.10.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "consul.1.6.10.5.nupkg.sha512",
+        "consul.nuspec",
+        "lib/net461/Consul.dll",
+        "lib/netstandard2.0/Consul.dll"
+      ]
+    },
     "DnsClient/1.6.0": {
       "sha512": "kVd3IxAs5EQZSKTQhMUaJmuOQ1n2VWKExatdqNszsxxKzTB+Toaxx3M1DsN3yKfHloMXPmt6fgfcOqRwKheoUQ==",
       "type": "package",
@@ -2057,6 +2082,7 @@
     "net5.0": [
       "AwesomeShop.Services.Orders.Data >= 1.0.0",
       "AwesomeShop.Services.Orders.Domain >= 1.0.0",
+      "Consul >= 1.6.10.5",
       "Microsoft.Extensions.Hosting >= 6.0.1",
       "Newtonsoft.Json >= 13.0.1",
       "RabbitMQ.Client >= 6.3.0"
@@ -2116,6 +2142,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Consul": {
+            "target": "Package",
+            "version": "[1.6.10.5, )"
+          },
           "Microsoft.Extensions.Hosting": {
             "target": "Package",
             "version": "[6.0.1, )"

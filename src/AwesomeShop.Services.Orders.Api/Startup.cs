@@ -21,11 +21,10 @@ namespace AwesomeShop.Services.Orders.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddServicesDependenciesInjection();
+            services.AddServicesDependenciesInjection(config: Configuration);
             services.AddRepositoriesDependenciesInjection();
             services.AddMessageBus();
             services.AddSubscribers();
-
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy", builder => builder
@@ -55,6 +54,8 @@ namespace AwesomeShop.Services.Orders.Api
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UserConsul();
 
             app.UseAuthorization();
 

@@ -10,12 +10,24 @@
         "dependencies": {
           "AwesomeShop.Services.Orders.Data": "1.0.0",
           "AwesomeShop.Services.Orders.Domain": "1.0.0",
+          "Consul": "1.6.10.5",
           "Microsoft.Extensions.Hosting": "6.0.1",
           "Newtonsoft.Json": "13.0.1",
           "RabbitMQ.Client": "6.3.0"
         },
         "runtime": {
           "AwesomeShop.Services.Orders.Services.dll": {}
+        }
+      },
+      "Consul/1.6.10.5": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {
+            "assemblyVersion": "1.6.10.5",
+            "fileVersion": "1.6.10.5"
+          }
         }
       },
       "DnsClient/1.6.0": {
@@ -649,6 +661,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Consul/1.6.10.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bHZeWce/klIPjqLNYqZHYIIjMnClLQE+/KJPzZlVo2J+APr4uuJghP6rax/WMB6SuI/oofbc2T046Q9+Zy/i5g==",
+      "path": "consul/1.6.10.5",
+      "hashPath": "consul.1.6.10.5.nupkg.sha512"
     },
     "DnsClient/1.6.0": {
       "type": "package",

@@ -11,10 +11,22 @@
           "AwesomeShop.Services.Orders.Data": "1.0.0",
           "AwesomeShop.Services.Orders.Domain": "1.0.0",
           "AwesomeShop.Services.Orders.Services": "1.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
           "AwesomeShop.Services.Orders.DependencyInjection.dll": {}
+        }
+      },
+      "Consul/1.6.10.5": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {
+            "assemblyVersion": "1.6.10.5",
+            "fileVersion": "1.6.10.5"
+          }
         }
       },
       "DnsClient/1.6.0": {
@@ -56,6 +68,29 @@
           "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
             "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.1.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
           }
         }
       },
@@ -645,6 +680,7 @@
         "dependencies": {
           "AwesomeShop.Services.Orders.Data": "1.0.0",
           "AwesomeShop.Services.Orders.Domain": "1.0.0",
+          "Consul": "1.6.10.5",
           "Microsoft.Extensions.Hosting": "6.0.1",
           "Newtonsoft.Json": "13.0.1",
           "RabbitMQ.Client": "6.3.0"
@@ -660,6 +696,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Consul/1.6.10.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bHZeWce/klIPjqLNYqZHYIIjMnClLQE+/KJPzZlVo2J+APr4uuJghP6rax/WMB6SuI/oofbc2T046Q9+Zy/i5g==",
+      "path": "consul/1.6.10.5",
+      "hashPath": "consul.1.6.10.5.nupkg.sha512"
     },
     "DnsClient/1.6.0": {
       "type": "package",
@@ -688,6 +731,20 @@
       "sha512": "sha512-mYdfMvpkahCAj4tRfBoeMlUBZa2WthaONdQ4y5TtIyxcZYb5e7AE7c1eITTZVWcQhguxvD8AdExdaiAW6RhrVA==",
       "path": "mediatr.extensions.microsoft.dependencyinjection/10.0.1",
       "hashPath": "mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/6.0.0": {
       "type": "package",
