@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AwesomeShop.Services.Orders.DependencyInjection\AwesomeShop.Services.Orders.DependencyInjection.csproj" />
+    <ProjectReference Include="..\AwesomeShop.Services.Orders.DependencyInjection\ClassLibrary1\AwesomeShop.Services.Orders.DependencyInjection.csproj" />
     <ProjectReference Include="..\AwesomeShop.Services.Orders.Domain\AwesomeShop.Services.Orders.Domain.csproj" />
   </ItemGroup>
 

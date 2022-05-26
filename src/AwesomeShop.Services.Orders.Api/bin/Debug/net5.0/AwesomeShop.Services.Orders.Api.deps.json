@@ -1103,6 +1103,14 @@
         }
       },
       "System.Threading.Channels/4.7.1": {},
+      "AwesomeShop.Services.Orders.CrossCutting/1.0.0": {
+        "runtime": {
+          "AwesomeShop.Services.Orders.CrossCutting.dll": {}
+        },
+        "compile": {
+          "AwesomeShop.Services.Orders.CrossCutting.dll": {}
+        }
+      },
       "AwesomeShop.Services.Orders.Data/1.0.0": {
         "dependencies": {
           "AwesomeShop.Services.Orders.Domain": "1.0.0",
@@ -1117,10 +1125,11 @@
       },
       "AwesomeShop.Services.Orders.DependencyInjection/1.0.0": {
         "dependencies": {
-          "AwesomeShop.Services.Orders.Data": "1.0.0",
           "AwesomeShop.Services.Orders.Domain": "1.0.0",
           "AwesomeShop.Services.Orders.Services": "1.0.0",
+          "Consul": "1.6.10.5",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
@@ -1132,7 +1141,7 @@
       },
       "AwesomeShop.Services.Orders.Domain/1.0.0": {
         "dependencies": {
-          "AwesomeShop.Services.Orders.Extensions": "1.0.0",
+          "AwesomeShop.Services.Orders.CrossCutting": "1.0.0",
           "MediatR": "10.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
           "MongoDB.Driver": "2.15.1",
@@ -1143,14 +1152,6 @@
         },
         "compile": {
           "AwesomeShop.Services.Orders.Domain.dll": {}
-        }
-      },
-      "AwesomeShop.Services.Orders.Extensions/1.0.0": {
-        "runtime": {
-          "AwesomeShop.Services.Orders.Extensions.dll": {}
-        },
-        "compile": {
-          "AwesomeShop.Services.Orders.Extensions.dll": {}
         }
       },
       "AwesomeShop.Services.Orders.Services/1.0.0": {
@@ -3094,6 +3095,11 @@
       "path": "system.threading.channels/4.7.1",
       "hashPath": "system.threading.channels.4.7.1.nupkg.sha512"
     },
+    "AwesomeShop.Services.Orders.CrossCutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "AwesomeShop.Services.Orders.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -3105,11 +3111,6 @@
       "sha512": ""
     },
     "AwesomeShop.Services.Orders.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "AwesomeShop.Services.Orders.Extensions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

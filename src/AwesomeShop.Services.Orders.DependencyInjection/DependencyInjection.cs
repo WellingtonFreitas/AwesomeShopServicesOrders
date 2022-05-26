@@ -4,6 +4,7 @@ using AwesomeShop.Services.Orders.Domain.Commands.Add;
 using AwesomeShop.Services.Orders.Domain.Interfaces.Repositories;
 using AwesomeShop.Services.Orders.Domain.Interfaces.Services;
 using AwesomeShop.Services.Orders.Services.MessageBus;
+using AwesomeShop.Services.Orders.Services.ServiceDiscovery;
 using AwesomeShop.Services.Orders.Services.Subscribers;
 using Consul;
 using MediatR;
@@ -28,6 +29,8 @@ namespace AwesomeShop.Services.Orders.DependencyInjection
 
                 consulConfig.Address = new Uri(address);
             }));
+
+            services.AddTransient<IServiceDiscovery, ConsulService>
         }
 
         public static void AddRepositoriesDependenciesInjection(this IServiceCollection services)

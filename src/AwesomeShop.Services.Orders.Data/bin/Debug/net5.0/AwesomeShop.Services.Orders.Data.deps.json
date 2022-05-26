@@ -198,9 +198,14 @@
         }
       },
       "System.Security.Principal.Windows/5.0.0": {},
+      "AwesomeShop.Services.Orders.CrossCutting/1.0.0": {
+        "runtime": {
+          "AwesomeShop.Services.Orders.CrossCutting.dll": {}
+        }
+      },
       "AwesomeShop.Services.Orders.Domain/1.0.0": {
         "dependencies": {
-          "AwesomeShop.Services.Orders.Extensions": "1.0.0",
+          "AwesomeShop.Services.Orders.CrossCutting": "1.0.0",
           "MediatR": "10.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
           "MongoDB.Driver": "2.15.1",
@@ -208,11 +213,6 @@
         },
         "runtime": {
           "AwesomeShop.Services.Orders.Domain.dll": {}
-        }
-      },
-      "AwesomeShop.Services.Orders.Extensions/1.0.0": {
-        "runtime": {
-          "AwesomeShop.Services.Orders.Extensions.dll": {}
         }
       }
     }
@@ -342,12 +342,12 @@
       "path": "system.security.principal.windows/5.0.0",
       "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
     },
-    "AwesomeShop.Services.Orders.Domain/1.0.0": {
+    "AwesomeShop.Services.Orders.CrossCutting/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "AwesomeShop.Services.Orders.Extensions/1.0.0": {
+    "AwesomeShop.Services.Orders.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

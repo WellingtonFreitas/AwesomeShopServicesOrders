@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AwesomeShop.Services.Orders.Extensions\AwesomeShop.Services.Orders.Extensions.csproj" />
+    <ProjectReference Include="..\AwesomeShop.Services.Orders.CrossCutting\AwesomeShop.Services.Orders.CrossCutting.csproj" />
   </ItemGroup>
 
 </Project>

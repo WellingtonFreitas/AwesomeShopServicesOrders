@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AwesomeShop.Services.Payments.Domain">
+      <HintPath>..\..\..\AwesomeShop.Services.Payments\src\AwesomeShop.Services.Payments.Domain\bin\Debug\net5.0\ref\AwesomeShop.Services.Payments.Domain.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

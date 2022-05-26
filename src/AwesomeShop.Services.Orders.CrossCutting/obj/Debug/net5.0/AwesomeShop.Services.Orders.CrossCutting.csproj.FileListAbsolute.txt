@@ -1,0 +1,14 @@
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.CrossCutting\obj\Debug\net5.0\AwesomeShop.Services.Orders.CrossCutting.csproj.AssemblyReference.cache
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.CrossCutting\obj\Debug\net5.0\AwesomeShop.Services.Orders.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.CrossCutting\obj\Debug\net5.0\AwesomeShop.Services.Orders.CrossCutting.AssemblyInfoInputs.cache
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.CrossCutting\obj\Debug\net5.0\AwesomeShop.Services.Orders.CrossCutting.AssemblyInfo.cs
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.CrossCutting\obj\Debug\net5.0\AwesomeShop.Services.Orders.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.CrossCutting\bin\Debug\net5.0\AwesomeShop.Services.Orders.CrossCutting.deps.json
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.CrossCutting\bin\Debug\net5.0\AwesomeShop.Services.Orders.CrossCutting.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.CrossCutting\bin\Debug\net5.0\ref\AwesomeShop.Services.Orders.CrossCutting.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.CrossCutting\bin\Debug\net5.0\AwesomeShop.Services.Orders.CrossCutting.pdb
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.CrossCutting\bin\Debug\net5.0\AwesomeShop.Services.Payments.Domain.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.CrossCutting\obj\Debug\net5.0\AwesomeShop.Services.Orders.CrossCutting.csproj.CopyComplete
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.CrossCutting\obj\Debug\net5.0\AwesomeShop.Services.Orders.CrossCutting.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.CrossCutting\obj\Debug\net5.0\ref\AwesomeShop.Services.Orders.CrossCutting.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.CrossCutting\obj\Debug\net5.0\AwesomeShop.Services.Orders.CrossCutting.pdb

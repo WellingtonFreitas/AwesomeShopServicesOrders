@@ -277,14 +277,14 @@
           }
         }
       },
-      "AwesomeShop.Services.Orders.Extensions/1.0.0": {
+      "AwesomeShop.Services.Orders.CrossCutting/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/AwesomeShop.Services.Orders.Extensions.dll": {}
+          "bin/placeholder/AwesomeShop.Services.Orders.CrossCutting.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AwesomeShop.Services.Orders.Extensions.dll": {}
+          "bin/placeholder/AwesomeShop.Services.Orders.CrossCutting.dll": {}
         }
       }
     }
@@ -777,15 +777,15 @@
         "version.txt"
       ]
     },
-    "AwesomeShop.Services.Orders.Extensions/1.0.0": {
+    "AwesomeShop.Services.Orders.CrossCutting/1.0.0": {
       "type": "project",
-      "path": "../AwesomeShop.Services.Orders.Extensions/AwesomeShop.Services.Orders.Extensions.csproj",
-      "msbuildProject": "../AwesomeShop.Services.Orders.Extensions/AwesomeShop.Services.Orders.Extensions.csproj"
+      "path": "../AwesomeShop.Services.Orders.CrossCutting/AwesomeShop.Services.Orders.CrossCutting.csproj",
+      "msbuildProject": "../AwesomeShop.Services.Orders.CrossCutting/AwesomeShop.Services.Orders.CrossCutting.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "AwesomeShop.Services.Orders.Extensions >= 1.0.0",
+      "AwesomeShop.Services.Orders.CrossCutting >= 1.0.0",
       "MediatR >= 10.0.1",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.1",
       "MongoDB.Driver >= 2.15.1",
@@ -827,8 +827,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Extensions\\AwesomeShop.Services.Orders.Extensions.csproj": {
-              "projectPath": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Extensions\\AwesomeShop.Services.Orders.Extensions.csproj"
+            "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.CrossCutting\\AwesomeShop.Services.Orders.CrossCutting.csproj": {
+              "projectPath": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.CrossCutting\\AwesomeShop.Services.Orders.CrossCutting.csproj"
             }
           }
         }

@@ -277,11 +277,21 @@
           }
         }
       },
+      "AwesomeShop.Services.Orders.CrossCutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/AwesomeShop.Services.Orders.CrossCutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AwesomeShop.Services.Orders.CrossCutting.dll": {}
+        }
+      },
       "AwesomeShop.Services.Orders.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "AwesomeShop.Services.Orders.Extensions": "1.0.0",
+          "AwesomeShop.Services.Orders.CrossCutting": "1.0.0",
           "MediatR": "10.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
           "MongoDB.Driver": "2.15.1",
@@ -292,16 +302,6 @@
         },
         "runtime": {
           "bin/placeholder/AwesomeShop.Services.Orders.Domain.dll": {}
-        }
-      },
-      "AwesomeShop.Services.Orders.Extensions/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/AwesomeShop.Services.Orders.Extensions.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AwesomeShop.Services.Orders.Extensions.dll": {}
         }
       }
     }
@@ -794,15 +794,15 @@
         "version.txt"
       ]
     },
+    "AwesomeShop.Services.Orders.CrossCutting/1.0.0": {
+      "type": "project",
+      "path": "../AwesomeShop.Services.Orders.CrossCutting/AwesomeShop.Services.Orders.CrossCutting.csproj",
+      "msbuildProject": "../AwesomeShop.Services.Orders.CrossCutting/AwesomeShop.Services.Orders.CrossCutting.csproj"
+    },
     "AwesomeShop.Services.Orders.Domain/1.0.0": {
       "type": "project",
       "path": "../AwesomeShop.Services.Orders.Domain/AwesomeShop.Services.Orders.Domain.csproj",
       "msbuildProject": "../AwesomeShop.Services.Orders.Domain/AwesomeShop.Services.Orders.Domain.csproj"
-    },
-    "AwesomeShop.Services.Orders.Extensions/1.0.0": {
-      "type": "project",
-      "path": "../AwesomeShop.Services.Orders.Extensions/AwesomeShop.Services.Orders.Extensions.csproj",
-      "msbuildProject": "../AwesomeShop.Services.Orders.Extensions/AwesomeShop.Services.Orders.Extensions.csproj"
     }
   },
   "projectFileDependencyGroups": {

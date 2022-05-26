@@ -883,6 +883,16 @@
           "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
         }
       },
+      "AwesomeShop.Services.Orders.CrossCutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/AwesomeShop.Services.Orders.CrossCutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AwesomeShop.Services.Orders.CrossCutting.dll": {}
+        }
+      },
       "AwesomeShop.Services.Orders.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -901,10 +911,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "AwesomeShop.Services.Orders.Data": "1.0.0",
           "AwesomeShop.Services.Orders.Domain": "1.0.0",
           "AwesomeShop.Services.Orders.Services": "1.0.0",
+          "Consul": "1.6.10.5",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "compile": {
@@ -918,7 +929,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "AwesomeShop.Services.Orders.Extensions": "1.0.0",
+          "AwesomeShop.Services.Orders.CrossCutting": "1.0.0",
           "MediatR": "10.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
           "MongoDB.Driver": "2.15.1",
@@ -929,16 +940,6 @@
         },
         "runtime": {
           "bin/placeholder/AwesomeShop.Services.Orders.Domain.dll": {}
-        }
-      },
-      "AwesomeShop.Services.Orders.Extensions/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/AwesomeShop.Services.Orders.Extensions.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AwesomeShop.Services.Orders.Extensions.dll": {}
         }
       },
       "AwesomeShop.Services.Orders.Services/1.0.0": {
@@ -2329,6 +2330,11 @@
         "version.txt"
       ]
     },
+    "AwesomeShop.Services.Orders.CrossCutting/1.0.0": {
+      "type": "project",
+      "path": "../AwesomeShop.Services.Orders.CrossCutting/AwesomeShop.Services.Orders.CrossCutting.csproj",
+      "msbuildProject": "../AwesomeShop.Services.Orders.CrossCutting/AwesomeShop.Services.Orders.CrossCutting.csproj"
+    },
     "AwesomeShop.Services.Orders.Data/1.0.0": {
       "type": "project",
       "path": "../AwesomeShop.Services.Orders.Data/AwesomeShop.Services.Orders.Data.csproj",
@@ -2336,18 +2342,13 @@
     },
     "AwesomeShop.Services.Orders.DependencyInjection/1.0.0": {
       "type": "project",
-      "path": "../AwesomeShop.Services.Orders.DependencyInjection/AwesomeShop.Services.Orders.DependencyInjection.csproj",
-      "msbuildProject": "../AwesomeShop.Services.Orders.DependencyInjection/AwesomeShop.Services.Orders.DependencyInjection.csproj"
+      "path": "../AwesomeShop.Services.Orders.DependencyInjection/ClassLibrary1/AwesomeShop.Services.Orders.DependencyInjection.csproj",
+      "msbuildProject": "../AwesomeShop.Services.Orders.DependencyInjection/ClassLibrary1/AwesomeShop.Services.Orders.DependencyInjection.csproj"
     },
     "AwesomeShop.Services.Orders.Domain/1.0.0": {
       "type": "project",
       "path": "../AwesomeShop.Services.Orders.Domain/AwesomeShop.Services.Orders.Domain.csproj",
       "msbuildProject": "../AwesomeShop.Services.Orders.Domain/AwesomeShop.Services.Orders.Domain.csproj"
-    },
-    "AwesomeShop.Services.Orders.Extensions/1.0.0": {
-      "type": "project",
-      "path": "../AwesomeShop.Services.Orders.Extensions/AwesomeShop.Services.Orders.Extensions.csproj",
-      "msbuildProject": "../AwesomeShop.Services.Orders.Extensions/AwesomeShop.Services.Orders.Extensions.csproj"
     },
     "AwesomeShop.Services.Orders.Services/1.0.0": {
       "type": "project",
@@ -2398,8 +2399,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.DependencyInjection\\AwesomeShop.Services.Orders.DependencyInjection.csproj": {
-              "projectPath": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.DependencyInjection\\AwesomeShop.Services.Orders.DependencyInjection.csproj"
+            "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.DependencyInjection\\ClassLibrary1\\AwesomeShop.Services.Orders.DependencyInjection.csproj": {
+              "projectPath": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.DependencyInjection\\ClassLibrary1\\AwesomeShop.Services.Orders.DependencyInjection.csproj"
             },
             "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Domain\\AwesomeShop.Services.Orders.Domain.csproj": {
               "projectPath": "C:\\Projects\\MicroServicosLuizDev\\AwesomeShop.Services.Orders\\src\\AwesomeShop.Services.Orders.Domain\\AwesomeShop.Services.Orders.Domain.csproj"

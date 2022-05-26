@@ -13,7 +13,7 @@ C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Ser
 C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\obj\Debug\net5.0\AwesomeShop.Services.Orders.Services.dll
 C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\obj\Debug\net5.0\ref\AwesomeShop.Services.Orders.Services.dll
 C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\obj\Debug\net5.0\AwesomeShop.Services.Orders.Services.pdb
-C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\bin\Debug\net5.0\AwesomeShop.Services.Orders.Extensions.dll
-C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\bin\Debug\net5.0\AwesomeShop.Services.Orders.Extensions.pdb
 C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\bin\Debug\net5.0\AwesomeShop.Services.Orders.Data.dll
 C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\bin\Debug\net5.0\AwesomeShop.Services.Orders.Data.pdb
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\bin\Debug\net5.0\AwesomeShop.Services.Orders.CrossCutting.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Services\bin\Debug\net5.0\AwesomeShop.Services.Orders.CrossCutting.pdb
