@@ -36,7 +36,7 @@ namespace AwesomeShop.Services.Orders.Domain.Commands.Add
             {
                 var order = request.MapToEntity();
 
-                await _customerIntegrationService.CreateCustomerUrl(order);
+                //await _customerIntegrationService.CreateCustomerUrl(order);
 
                 await _repository.AddAsync(order);
 

@@ -12,16 +12,16 @@ namespace AwesomeShop.Services.Orders.Api.Controllers
     [ApiController]
     public class OrdersController : ControllerBase
     {
-        private readonly IMediator _meditator;
-        public OrdersController(IMediator meditator)
+        private readonly IMediator _mediator;
+        public OrdersController(IMediator mediator)
         {
-            _meditator = meditator;
+            _mediator = mediator;
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetByIdAsync(Guid id)
         {
-            var result = await _meditator.Send(new GetOrderByIdRequest(id: id));
+            var result = await _mediator.Send(new GetOrderByIdRequest(id: id));
 
             if (result.StatusCode.Equals(HttpStatusCode.NotFound))
                 return NotFound(result);
@@ -35,7 +35,7 @@ namespace AwesomeShop.Services.Orders.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> AddOrderAsync(AddOrderRequest request)
         {
-            var result = await _meditator.Send(request);
+            var result = await _mediator.Send(request);
 
             if (result.StatusCode.Equals(HttpStatusCode.InternalServerError))
                 return StatusCode(500, result);

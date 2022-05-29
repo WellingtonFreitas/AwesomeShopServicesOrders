@@ -35,7 +35,22 @@
       "ProjectGuid": "be7374f7-3046-4472-bed8-065df5830280",
       "DisplayName": "AwesomeShop.Services.Orders.Extensions",
       "ColorIndex": 5
+    },
+    "05128e96-fe36-48df-a020-f9355c5ab96a": {
+      "ProjectGuid": "05128e96-fe36-48df-a020-f9355c5ab96a",
+      "DisplayName": "AwesomeShop.Services.Orders.CrossCutting",
+      "ColorIndex": 6
+    },
+    "acb4091e-f25a-4246-b1fc-be1b2e7a7153": {
+      "ProjectGuid": "acb4091e-f25a-4246-b1fc-be1b2e7a7153",
+      "DisplayName": "AwesomeShop.Services.Payments.DependencyInjection",
+      "ColorIndex": 7
+    },
+    "26fd761f-a4bd-4c84-a6a7-b40e6b88bd79": {
+      "ProjectGuid": "26fd761f-a4bd-4c84-a6a7-b40e6b88bd79",
+      "DisplayName": "AwesomeShop.Services.Orders.DependencyInjection",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 9
 }
