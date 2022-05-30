@@ -25,6 +25,8 @@ namespace AwesomeShop.Services.Orders.Api
             services.AddRepositoriesDependenciesInjection();
             services.AddMessageBus();
             services.AddSubscribers();
+            services.AddRedis(config: Configuration);
+
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy", builder => builder

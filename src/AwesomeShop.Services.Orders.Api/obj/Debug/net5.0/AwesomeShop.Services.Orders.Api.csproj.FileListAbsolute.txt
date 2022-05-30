@@ -90,3 +90,14 @@ C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Ser
 C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Api\bin\Debug\net5.0\Consul.dll
 C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Api\bin\Debug\net5.0\AwesomeShop.Services.Orders.CrossCutting.dll
 C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Api\bin\Debug\net5.0\AwesomeShop.Services.Orders.CrossCutting.pdb
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Api\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Api\bin\Debug\net5.0\Microsoft.Extensions.Caching.Redis.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Api\bin\Debug\net5.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Api\bin\Debug\net5.0\Pipelines.Sockets.Unofficial.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Api\bin\Debug\net5.0\StackExchange.Redis.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Api\bin\Debug\net5.0\StackExchange.Redis.StrongName.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Api\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Api\bin\Debug\net5.0\System.Diagnostics.PerformanceCounter.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Api\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Api\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Projects\MicroServicosLuizDev\AwesomeShop.Services.Orders\src\AwesomeShop.Services.Orders.Api\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll

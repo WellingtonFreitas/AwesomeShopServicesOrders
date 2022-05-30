@@ -3,6 +3,7 @@ using AwesomeShop.Services.Orders.Data.Persistence.Repositories;
 using AwesomeShop.Services.Orders.Domain.Commands.Add;
 using AwesomeShop.Services.Orders.Domain.Interfaces.Repositories;
 using AwesomeShop.Services.Orders.Domain.Interfaces.Services;
+using AwesomeShop.Services.Orders.Services.CacheStorage;
 using AwesomeShop.Services.Orders.Services.MessageBus;
 using AwesomeShop.Services.Orders.Services.ServiceDiscovery;
 using AwesomeShop.Services.Orders.Services.Services;
@@ -32,6 +33,7 @@ namespace AwesomeShop.Services.Orders.DependencyInjection
 
             services.AddTransient<IServiceDiscovery, ConsulService>();
             services.AddTransient<ICustomerIntegrationService, CustomerIntegrationService>();
+            services.AddTransient<ICachService, CachService>();
         }
 
         public static void AddRepositoriesDependenciesInjection(this IServiceCollection services)
@@ -49,6 +51,15 @@ namespace AwesomeShop.Services.Orders.DependencyInjection
         public static void AddSubscribers(this IServiceCollection services)
         {
             services.AddHostedService<PaymentAcceptedSubscriber>();
+        }
+
+        public static void AddRedis(this IServiceCollection services, IConfiguration config)
+        {
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.InstanceName = config.GetValue<string>("cache:redis:name");
+                options.Configuration = config.GetValue<string>("cache:redis:serverConfiguration");
+            });
         }
 
         public static void UserConsul(this IApplicationBuilder app)
